@@ -1,0 +1,127 @@
+.footer {
+  background: #080808;
+  padding: 80px 60px 40px;
+  border-top: 1px solid rgba(255,255,255,0.06);
+}
+
+.footer-top {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 48px;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer-brand-name {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 26px;
+  letter-spacing: 4px;
+  color: white;
+  line-height: 1;
+}
+
+.footer-brand-tag {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: rgba(255,255,255,0.35);
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+
+.footer-tagline {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: rgba(255,255,255,0.15);
+  text-align: right;
+  line-height: 1.2;
+}
+
+.footer-divider {
+  max-width: 1280px;
+  margin: 0 auto 48px;
+  height: 1px;
+  background: rgba(255,255,255,0.06);
+}
+
+.footer-mid {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 60px;
+  margin-bottom: 48px;
+}
+
+.footer-col h4 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 18px;
+  letter-spacing: 3px;
+  color: white;
+  margin-bottom: 20px;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.footer-col h4::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0;
+  width: 24px; height: 1px;
+  background: var(--orange);
+}
+
+.footer-col ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-col ul li a {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 15px;
+  color: rgba(255,255,255,0.4);
+  text-decoration: none;
+  transition: color 0.3s ease;
+  letter-spacing: 0.5px;
+}
+
+.footer-col ul li a:hover { color: var(--orange); }
+
+.footer-addr {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 15px;
+  color: rgba(255,255,255,0.4);
+  line-height: 1.8;
+}
+
+.footer-bottom {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  color: rgba(255,255,255,0.2);
+  letter-spacing: 1px;
+}
+
+.footer-credit { color: var(--orange); opacity: 0.7; }
+
+@media (max-width: 768px) {
+  .footer { padding: 60px 24px 32px; }
+  .footer-top { flex-direction: column; gap: 24px; }
+  .footer-tagline { text-align: left; }
+  .footer-mid { grid-template-columns: 1fr; gap: 40px; }
+  .footer-bottom { flex-direction: column; gap: 8px; text-align: center; }
+}
