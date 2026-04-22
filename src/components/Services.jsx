@@ -95,19 +95,20 @@ const services = [
     ),
     color: '#FF6B2B'
   },
-  {
-    id: '06',
-    title: 'Titanium Gold Works',
-    desc: 'Premium titanium gold coat signboards, name boards, and decorative metalwork that make a bold statement.',
-    icon: (
-      <svg viewBox="0 0 60 60" fill="none" stroke="currentColor" strokeWidth="1.5">
-        <path d="M30 8 L52 18 L52 42 L30 52 L8 42 L8 18 Z"/>
-        <path d="M30 15 L45 22 L45 38 L30 45 L15 38 L15 22 Z" opacity="0.5"/>
-        <text x="30" y="33" textAnchor="middle" fontSize="10" fill="currentColor" fontWeight="bold" stroke="none">GOLD</text>
-      </svg>
-    ),
-    color: '#C23D00'
-  },
+{
+  id: '06',
+  title: 'Shed Fabrication',
+  desc: 'We design and fabricate durable steel sheds for residential, commercial, and industrial use. Our shed works include roofing structures, car parking sheds, and warehouse frames built with high-quality MS steel and weather-resistant materials.',
+  icon: (
+    <svg viewBox="0 0 60 60" fill="none" stroke="currentColor" strokeWidth="1.5">
+      <path d="M10 30 L30 12 L50 30" /> 
+      <path d="M14 30 V48 H46 V30" />
+      <path d="M22 48 V34 H38 V48" />
+      <line x1="10" y1="30" x2="50" y2="30" />
+    </svg>
+  ),
+  color: '#FF6B2B'
+}
 ];
 
 const Services = () => {

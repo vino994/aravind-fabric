@@ -228,7 +228,7 @@ const ServicePopup = ({ item, onClose }) => {
             {/* CTA Buttons */}
             <div style={styles.ctaRow}>
               <a
-                href={`https://wa.me/919876543210?text=Hi%2C%20I'm%20interested%20in%20your%20${encodeURIComponent(item.label)}%20service.`}
+                href={`https://wa.me/919842240224?text=Hi%2C%20I'm%20interested%20in%20your%20${encodeURIComponent(item.label)}%20service.`}
                 target="_blank"
                 rel="noreferrer"
                 style={styles.btnWa}
@@ -239,7 +239,7 @@ const ServicePopup = ({ item, onClose }) => {
                 WhatsApp Us
               </a>
               <a
-                href={`mailto:info@yourcompany.com?subject=Enquiry: ${item.label}&body=Hi, I'm interested in your ${item.label} service. Please send me more details.`}
+                href={`mailto:info@aravind_industries@gmail.com?subject=Enquiry: ${item.label}&body=Hi, I'm interested in your ${item.label} service. Please send me more details.`}
                 style={styles.btnMail}
               >
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{ marginRight: 8 }}>

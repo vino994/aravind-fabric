@@ -28,7 +28,7 @@ const Footer = () => {
         <div className="footer-col">
           <h4>Services</h4>
           <ul>
-            {['Main Gates', 'Windows & Doors', 'Staircase Railings', 'Balcony Railings', 'Aluminium UPVC', 'Titanium Gold'].map(s => (
+            {['Main Gates', 'Windows & Doors', 'Staircase Railings', 'Balcony Railings', 'Aluminium UPVC', 'Shed Fabrication'].map(s => (
               <li key={s}><a href="#services">{s}</a></li>
             ))}
           </ul>
@@ -41,14 +41,34 @@ const Footer = () => {
             <li><a href="mailto:aravindindustries21@gmail.com">✉ aravindindustries21@gmail.com</a></li>
           </ul>
         </div>
-        <div className="footer-col">
-          <h4>Location</h4>
-          <p className="footer-addr">
-            Opposite to Aranthangi Court,<br />
-            L.N.Puram, Aranthangi – 614 616,<br />
-            Tamil Nadu, India
-          </p>
-        </div>
+  <div className="footer-col footer-map-col">
+  <h4>Location</h4>
+
+  <p className="footer-addr">
+    Opposite to Aranthangi Court,<br />
+    L.N.Puram, Aranthangi – 614 616,<br />
+    Tamil Nadu, India
+  </p>
+
+  {/* MAP */}
+  <div className="footer-map">
+    <iframe
+      src="https://www.google.com/maps?q=Aranthangi+Court&output=embed"
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+    ></iframe>
+  </div>
+
+  {/* DIRECTION BUTTON */}
+  <a
+    href="https://www.google.com/maps/dir/?api=1&destination=Aranthangi+Court"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="map-btn"
+  >
+    Get Directions →
+  </a>
+</div>
       </div>
 
       <div className="footer-divider" />
